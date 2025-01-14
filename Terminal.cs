@@ -36,11 +36,11 @@ namespace PRG2_Assignment
 
         public bool AddBoardingGate(BoardingGate gate)
         {
-            if (BoardingGates.ContainsKey(gate.gateName))
+            if (BoardingGates.ContainsKey(gate.GateName))
             {
                 return false;
             }
-            BoardingGates[gate.gateName] = gate;
+            BoardingGates[gate.GateName] = gate;
             return true;
         }
 
